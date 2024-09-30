@@ -29,6 +29,16 @@ dependencies:
   # SM
   flutter_bloc: ^8.1.6
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Generator
+  build_runner: ^2.4.8
+  flutter_gen_runner: ^5.3.2
+  build_verify: ^3.1.0
+
 # Assets
 flutter_gen:
   output: lib/generated
@@ -46,15 +56,16 @@ flutter:
    - assets/icons/
    - assets/images/
   
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0
-
-  # Generator
-  build_runner: ^2.4.8
-  flutter_gen_runner: ^5.3.2
-  build_verify: ^3.1.0
+  fonts:
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/fredoka_medium.ttf
+          weight: 500
+        - asset: assets/fonts/fredoka_regular.ttf
+          weight: 400
+        - asset: assets/fonts/fredoka_light.ttf
+          weight: 300
+  
 
 flutter_intl:
   enabled: true
