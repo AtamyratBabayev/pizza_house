@@ -8,6 +8,9 @@ class PizzaHouseApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      supportedLocales: AppLoc.supportedLocales,
+      localizationsDelegates: AppLoc.appDelegates,
+      locale: AppLoc.supportedLocales.first,
       theme: AppLightTheme.data,
       routerConfig: AppRouter.router,
     );
