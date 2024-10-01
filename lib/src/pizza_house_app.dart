@@ -7,13 +7,9 @@ class PizzaHouseApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       theme: AppLightTheme.data,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Pizza House'),
-        ),
-      ),
+      routerConfig: AppRouter.router,
     );
   }
 }
