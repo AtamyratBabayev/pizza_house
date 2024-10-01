@@ -43,6 +43,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/eye_off.svg
   SvgGenImage get eyeOff => const SvgGenImage('assets/icons/eye_off.svg');
 
+  /// File path: assets/icons/filters.svg
+  SvgGenImage get filters => const SvgGenImage('assets/icons/filters.svg');
+
   /// File path: assets/icons/flag_uk.svg
   SvgGenImage get flagUk => const SvgGenImage('assets/icons/flag_uk.svg');
 
@@ -54,7 +57,7 @@ class $AssetsIconsGen {
 
   /// List of all assets
   List<SvgGenImage> get values =>
-      [basket, chevronLeft, eye, eyeOff, flagUk, menu, search];
+      [basket, chevronLeft, eye, eyeOff, filters, flagUk, menu, search];
 }
 
 class Assets {
