@@ -429,6 +429,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  localized_rich_text:
+    dependency: "direct main"
+    description:
+      name: localized_rich_text
+      sha256: "605c83a85cb89e27e013286add78e3e91307d6f332f8bd30dbdf8e3654e7a91d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   logging:
     dependency: transitive
     description:
