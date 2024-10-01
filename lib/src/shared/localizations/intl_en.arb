@@ -10,5 +10,6 @@
             }
         }
     },
-    "dashboardGreettingSecond" : "#name What fruit salad\ncombo do you want today?"
+    "dashboardGreettingSecond" : "#name What fruit salad\ncombo do you want today?",
+    "dashboardSearch": "Search for fruit salad combos"
 }

@@ -89,6 +89,16 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `Search for fruit salad combos`
+  String get dashboardSearch {
+    return Intl.message(
+      'Search for fruit salad combos',
+      name: 'dashboardSearch',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -28,6 +28,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dashboardCart": MessageLookupByLibrary.simpleMessage("My basket"),
         "dashboardGreettingSecond": MessageLookupByLibrary.simpleMessage(
             "#name What fruit salad\ncombo do you want today?"),
-        "dashboardGrettingFirst": m0
+        "dashboardGrettingFirst": m0,
+        "dashboardSearch": MessageLookupByLibrary.simpleMessage(
+            "Search for fruit salad combos")
       };
 }
