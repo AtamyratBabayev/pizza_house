@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../app_colors.dart';
 import '../app_text_theme.dart';
 
-const _borderRadius = 20.0;
-const _contentPaddingHorizontal = 25.0;
-const _contentPaddingVertical = 30.0;
+const _borderRadius = 16.0;
+const _contentPaddingHorizontal = 24.0;
+const _contentPaddingVertical = 18.0;
 
 class AppLightTextInputTheme {
   const AppLightTextInputTheme._();
@@ -23,14 +23,12 @@ class AppLightTextInputTheme {
         vertical: _contentPaddingVertical),
     counterStyle: const TextStyle(height: 0.0, fontSize: 0.0),
     errorStyle: const TextStyle(fontSize: 0.0),
-    hintStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
-    labelStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
+    hintStyle: AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
+    labelStyle: AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
     floatingLabelStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
-    prefixIconColor: AppColors.greyDark,
-    suffixIconColor: AppColors.greyDark,
+        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
+    prefixIconColor: AppColors.silver,
+    suffixIconColor: AppColors.silver,
     border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(_borderRadius),
         borderSide: BorderSide.none),

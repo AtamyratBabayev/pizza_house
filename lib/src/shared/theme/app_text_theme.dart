@@ -1,99 +1,100 @@
 import 'package:flutter/material.dart';
 
 import '../../../../generated/fonts.gen.dart';
+import 'app_colors.dart';
 
 class AppTextTheme {
   const AppTextTheme._();
 
   static TextTheme get data => const TextTheme(
         displayLarge: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 57.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         displayMedium: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 45.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         displaySmall: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 36.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         headlineLarge: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 32.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         headlineMedium: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 28.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         headlineSmall: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 24.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         titleLarge: TextStyle(
-            color: Colors.black,
-            fontSize: 22.0,
-            fontFamily: FontFamily.fredoka,
+            color: AppColors.purpleDark,
+            fontSize: 20.0,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         titleMedium: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 16.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         titleSmall: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 14.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         labelLarge: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 14.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         labelMedium: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 12.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         labelSmall: TextStyle(
-            color: Colors.black,
-            fontSize: 11.0,
-            fontFamily: FontFamily.fredoka,
+            color: AppColors.purpleDark,
+            fontSize: 10.0,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         bodyLarge: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 16.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         bodyMedium: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 14.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
         bodySmall: TextStyle(
-            color: Colors.black,
+            color: AppColors.purpleDark,
             fontSize: 12.0,
-            fontFamily: FontFamily.fredoka,
+            fontFamily: FontFamily.brandonGrotesque,
             height: 1.0,
             fontWeight: FontWeight.normal),
       );

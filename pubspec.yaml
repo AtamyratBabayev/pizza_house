@@ -57,16 +57,13 @@ flutter:
    - assets/images/
   
   fonts:
-    - family: Fredoka
+    - family: Brandon Grotesque
       fonts:
-        - asset: assets/fonts/fredoka_medium.ttf
+        - asset: assets/fonts/brandon_grotesque_medium.ttf
           weight: 500
-        - asset: assets/fonts/fredoka_regular.ttf
+        - asset: assets/fonts/brandon_grotesque_regular.ttf
           weight: 400
-        - asset: assets/fonts/fredoka_light.ttf
-          weight: 300
   
-
 flutter_intl:
   enabled: true
   class_name: AppLocalizations
