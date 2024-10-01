@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'app_tab_bar_props.dart';
 
-const _paddingHorizontal = 24.0;
+const _paddingHorizontal = 10.0;
 
 class AppTabBar extends StatelessWidget {
   const AppTabBar({required this.props, super.key});
