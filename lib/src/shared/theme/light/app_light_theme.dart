@@ -15,7 +15,7 @@ class AppLightTheme {
       hintColor: AppColors.silver,
       colorScheme: AppLightColorScheme.data,
       useMaterial3: true,
-      fontFamily: FontFamily.fredoka,
+      fontFamily: FontFamily.brandonGrotesque,
       shadowColor: AppColors.black,
       textTheme: AppTextTheme.data);
 }
