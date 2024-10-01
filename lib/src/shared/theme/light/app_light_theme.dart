@@ -12,9 +12,10 @@ class AppLightTheme {
   static ThemeData get data => ThemeData(
       scaffoldBackgroundColor: Colors.white,
       inputDecorationTheme: AppLightTextInputTheme.data,
-      hintColor: AppColors.greyDark,
+      hintColor: AppColors.silver,
       colorScheme: AppLightColorScheme.data,
       useMaterial3: true,
       fontFamily: FontFamily.fredoka,
+      shadowColor: AppColors.black,
       textTheme: AppTextTheme.data);
 }
