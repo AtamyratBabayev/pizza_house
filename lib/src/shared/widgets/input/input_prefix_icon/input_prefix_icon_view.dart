@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'input_prefix_icon_props.dart';
 
-const _sizeIcon = 24.0;
-const _paddingLeft = 20.0;
-const _paddingRight = 14.0;
+const _sizeIcon = 16.0;
+const _paddingLeft = 24.0;
+const _paddingRight = 15.0;
 
 class InputPrefixIcon extends StatelessWidget {
   const InputPrefixIcon({required this.props, super.key});
