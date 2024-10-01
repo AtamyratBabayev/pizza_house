@@ -23,14 +23,12 @@ class AppLightTextInputTheme {
         vertical: _contentPaddingVertical),
     counterStyle: const TextStyle(height: 0.0, fontSize: 0.0),
     errorStyle: const TextStyle(fontSize: 0.0),
-    hintStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
-    labelStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
+    hintStyle: AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
+    labelStyle: AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
     floatingLabelStyle:
-        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
-    prefixIconColor: AppColors.greyDark,
-    suffixIconColor: AppColors.greyDark,
+        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.silver),
+    prefixIconColor: AppColors.silver,
+    suffixIconColor: AppColors.silver,
     border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(_borderRadius),
         borderSide: BorderSide.none),
