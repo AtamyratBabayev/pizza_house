@@ -4,7 +4,7 @@ import '../../../../../../../generated/assets.gen.dart';
 import '../../../../../../shared/shared.dart';
 import 'dashboard_search_filters_bar.dart';
 
-const _paddingLeft = 30.0;
+const _paddingLeft = 24.0;
 const _paddingRight = 20.0;
 const _paddingRightInput = 10.0;
 const _sizeIcon = 22.0;
