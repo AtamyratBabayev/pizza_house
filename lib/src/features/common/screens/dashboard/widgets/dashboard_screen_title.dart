@@ -6,7 +6,7 @@ import '../../../../../shared/shared.dart';
 // TODO: Update with real user name
 const userName = 'Kante';
 
-const _paddingHorizontal = 30.0;
+const _paddingHorizontal = 24.0;
 
 class DashboardScreenTitle extends StatelessWidget {
   const DashboardScreenTitle({super.key});
