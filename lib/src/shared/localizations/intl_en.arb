@@ -1,4 +1,14 @@
 {
     "@@locale": "en",
-    "appName":"Pizza house"
+    "appName":"Pizza house",
+    "dashboardCart": "My basket",
+    "dashboardGrettingFirst" : "Hello {name},",
+    "@dashboardGrettingFirst": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "dashboardGreettingSecond" : "#name What fruit salad\ncombo do you want today?"
 }

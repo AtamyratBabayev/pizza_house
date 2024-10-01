@@ -59,6 +59,36 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `My basket`
+  String get dashboardCart {
+    return Intl.message(
+      'My basket',
+      name: 'dashboardCart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hello {name},`
+  String dashboardGrettingFirst(String name) {
+    return Intl.message(
+      'Hello $name,',
+      name: 'dashboardGrettingFirst',
+      desc: '',
+      args: [name],
+    );
+  }
+
+  /// `#name What fruit salad\ncombo do you want today?`
+  String get dashboardGreettingSecond {
+    return Intl.message(
+      '#name What fruit salad\ncombo do you want today?',
+      name: 'dashboardGreettingSecond',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {
