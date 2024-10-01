@@ -99,6 +99,16 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `Recommended Combo`
+  String get dashboardRecommended {
+    return Intl.message(
+      'Recommended Combo',
+      name: 'dashboardRecommended',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

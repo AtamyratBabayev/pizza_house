@@ -29,6 +29,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dashboardGreettingSecond": MessageLookupByLibrary.simpleMessage(
             "#name What fruit salad\ncombo do you want today?"),
         "dashboardGrettingFirst": m0,
+        "dashboardRecommended":
+            MessageLookupByLibrary.simpleMessage("Recommended Combo"),
         "dashboardSearch": MessageLookupByLibrary.simpleMessage(
             "Search for fruit salad combos")
       };
