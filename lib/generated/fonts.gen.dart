@@ -10,6 +10,6 @@
 class FontFamily {
   FontFamily._();
 
-  /// Font family: Fredoka
-  static const String fredoka = 'Fredoka';
+  /// Font family: Brandon Grotesque
+  static const String brandonGrotesque = 'Brandon Grotesque';
 }

@@ -15,17 +15,16 @@ import 'package:vector_graphics/vector_graphics.dart' as _vg;
 class $AssetsFontsGen {
   const $AssetsFontsGen();
 
-  /// File path: assets/fonts/fredoka_light.ttf
-  String get fredokaLight => 'assets/fonts/fredoka_light.ttf';
+  /// File path: assets/fonts/brandon_grotesque_medium.ttf
+  String get brandonGrotesqueMedium =>
+      'assets/fonts/brandon_grotesque_medium.ttf';
 
-  /// File path: assets/fonts/fredoka_medium.ttf
-  String get fredokaMedium => 'assets/fonts/fredoka_medium.ttf';
-
-  /// File path: assets/fonts/fredoka_regular.ttf
-  String get fredokaRegular => 'assets/fonts/fredoka_regular.ttf';
+  /// File path: assets/fonts/brandon_grotesque_regular.ttf
+  String get brandonGrotesqueRegular =>
+      'assets/fonts/brandon_grotesque_regular.ttf';
 
   /// List of all assets
-  List<String> get values => [fredokaLight, fredokaMedium, fredokaRegular];
+  List<String> get values => [brandonGrotesqueMedium, brandonGrotesqueRegular];
 }
 
 class $AssetsIconsGen {
