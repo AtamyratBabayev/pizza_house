@@ -30,6 +30,9 @@ class $AssetsFontsGen {
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/basket.svg
+  SvgGenImage get basket => const SvgGenImage('assets/icons/basket.svg');
+
   /// File path: assets/icons/chevron_left.svg
   SvgGenImage get chevronLeft =>
       const SvgGenImage('assets/icons/chevron_left.svg');
@@ -47,7 +50,8 @@ class $AssetsIconsGen {
   SvgGenImage get search => const SvgGenImage('assets/icons/search.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [chevronLeft, eye, eyeOff, menu, search];
+  List<SvgGenImage> get values =>
+      [basket, chevronLeft, eye, eyeOff, menu, search];
 }
 
 class Assets {
