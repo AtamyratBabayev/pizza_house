@@ -10,6 +10,7 @@ class AppLightColorScheme {
         brightness: Brightness.light,
         primary: AppColors.orange,
         onPrimary: Colors.white,
+        primaryContainer: AppColors.orangeLight,
         secondary: AppColors.orange,
         onSecondary: Colors.white,
         error: AppColors.red,
@@ -18,6 +19,6 @@ class AppLightColorScheme {
         onErrorContainer: Colors.white,
         surface: Colors.white,
         onSurface: Colors.black,
-        onSurfaceVariant: AppColors.greyDark);
+        onSurfaceVariant: AppColors.silver);
   }
 }
