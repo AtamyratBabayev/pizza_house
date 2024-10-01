@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import '../app_colors.dart';
 import '../app_text_theme.dart';
 
-// TODO: Update on widgets creation state
-const _borderRadius = 15.0;
+const _borderRadius = 20.0;
 const _contentPaddingHorizontal = 25.0;
-const _contentPaddingVertical = 28.0;
+const _contentPaddingVertical = 30.0;
 
 class AppLightTextInputTheme {
   const AppLightTextInputTheme._();
@@ -24,12 +23,12 @@ class AppLightTextInputTheme {
         vertical: _contentPaddingVertical),
     counterStyle: const TextStyle(height: 0.0, fontSize: 0.0),
     errorStyle: const TextStyle(fontSize: 0.0),
-    hintStyle: AppTextTheme.data.labelLarge
-        ?.copyWith(color: AppColors.greyDark, fontWeight: FontWeight.bold),
+    hintStyle:
+        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
     labelStyle:
-        AppTextTheme.data.labelLarge?.copyWith(color: AppColors.greyDark),
+        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
     floatingLabelStyle:
-        AppTextTheme.data.labelLarge?.copyWith(color: AppColors.greyDark),
+        AppTextTheme.data.titleSmall?.copyWith(color: AppColors.greyDark),
     prefixIconColor: AppColors.greyDark,
     suffixIconColor: AppColors.greyDark,
     border: OutlineInputBorder(
