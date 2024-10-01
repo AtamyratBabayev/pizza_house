@@ -5,7 +5,7 @@ import 'auto_leading_icon_button.dart';
 import 'top_bar_action/top_bar_action.dart';
 import 'top_bar_props.dart';
 
-const _paddingHorizontal = 14.0;
+const _paddingHorizontal = 7.0;
 
 class TopBar extends StatelessWidget implements PreferredSizeWidget {
   const TopBar({required this.props, super.key});

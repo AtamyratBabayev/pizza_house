@@ -12,6 +12,7 @@ class AppLightTabBarTheme {
   static TabBarTheme get data {
     final textTheme = AppTextTheme.data;
     return TabBarTheme(
+        tabAlignment: TabAlignment.start,
         labelStyle: textTheme.headlineSmall?.copyWith(
             color: AppColors.purpleDark, fontWeight: FontWeight.w500),
         unselectedLabelStyle: textTheme.titleMedium
