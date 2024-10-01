@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../app_colors.dart';
 import '../app_text_theme.dart';
 
-const _borderRadius = 20.0;
-const _contentPaddingHorizontal = 25.0;
-const _contentPaddingVertical = 30.0;
+const _borderRadius = 16.0;
+const _contentPaddingHorizontal = 24.0;
+const _contentPaddingVertical = 18.0;
 
 class AppLightTextInputTheme {
   const AppLightTextInputTheme._();
