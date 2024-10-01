@@ -5,7 +5,7 @@ import '../app_text_theme.dart';
 
 const _borderRadius = 16.0;
 const _contentPaddingHorizontal = 24.0;
-const _contentPaddingVertical = 18.0;
+const _contentPaddingVertical = 21.0;
 
 class AppLightTextInputTheme {
   const AppLightTextInputTheme._();
